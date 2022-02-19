@@ -1,0 +1,23 @@
+body {
+     background-color: #f6f9fc;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    column-count: 5;
+}
+@media (max-width: 720px) {
+    section {
+        column-count: 3;
+    }
+}
+div {
+    break-inside: avoid-column;
+}
+img {
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 100%;
+    display: block;
+}
